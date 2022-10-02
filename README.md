@@ -15,6 +15,3 @@ Clone the repo and run: `npm install`
 ## Start
 
 After the successful installation of the packages: `npm run start`
-
-### Todo
-Jest has been disabled and is considered broken in this project.  Please make a pull request to help improve, or feel free to make fixes in your own fork.
