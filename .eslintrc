@@ -28,11 +28,6 @@
         "plugins": ["react", "prettier"],
         "rules": {
                 "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
-                "no-restricted-imports": [
-                        "error",
-                        {
-                                "patterns": ["@/features/*/*"]
-                        }
-                ]
+                "react/react-in-jsx-scope": "off"
         }
 }

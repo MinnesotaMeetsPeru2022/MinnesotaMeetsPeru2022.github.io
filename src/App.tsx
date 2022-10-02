@@ -1,11 +1,10 @@
 import '@/app/App.css';
-
-import React from 'react';
+import CountDown from '@/components/CountDown';
 
 export default function App() {
     return (
         <div className="App">
-            <h1>Vite-React-TypeScript-Skeleton</h1>
+            <CountDown />
         </div>
     );
 }
